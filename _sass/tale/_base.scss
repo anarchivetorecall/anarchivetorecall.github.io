@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@400;500&family=Noto+Serif+KR:wght@300;600&display=swap');
+
 * {
   @include box-sizing;
   line-height: 1.5;
@@ -11,7 +13,7 @@ body {
 }
 
 html {
-  font-family: $serif-primary;
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 14px;
   overflow-y: scroll;
 
@@ -31,7 +33,7 @@ h4,
 h5,
 h6 {
   color: $default-shade;
-  font-family: $sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
   line-height: normal;
 }
 
