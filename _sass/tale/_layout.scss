@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@400;500&family=Noto+Serif+KR:wght@300;600&display=swap');
+
 .container {
   margin: 0 auto;
   max-width: 800px;
@@ -62,7 +64,7 @@ footer,
 
   a {
     color: $default-color;
-    font-family: $sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
   }
 }
 
@@ -81,7 +83,7 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: 'Nanum Myeongjo', serif;
   padding: 2rem 0;
   text-align: center;
 
