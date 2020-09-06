@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@400;500&family=Noto+Serif+KR:wght@300;600&display=swap');
+
 .post {
   padding: 3rem 0;
 
   &-info {
     color: $default-tint;
-    font-family: $serif-secondary;
+    font-family: 'Nanum Myeongjo', serif;
     letter-spacing: 0.5px;
-    text-align: center;
+    text-align: left;
 
     span {
       font-style: italic;
@@ -14,7 +16,7 @@
 
   &-title {
     color: $default-shade;
-    font-family: $sans-serif;
+    font-family: 'Noto Serif KR', serif;
     font-size: 4rem;
     margin: 1rem 0;
     text-align: center;
@@ -43,7 +45,7 @@
   img + em {
     color: $default-tint;
     display: block;
-    font-family: $sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
